@@ -1,0 +1,26 @@
+{
+  "name": "NodeJsApplication",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Robert",
+  "contributors": [],
+  "scripts": {
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^0.6.1",
+    "body-parser": "~1.15.2",
+    "express": "~4.14.0",
+    "multer": "~1.2.1",
+    "request": "~2.79.0"
+  }
+}
